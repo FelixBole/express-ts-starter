@@ -1,5 +1,5 @@
 import winston from 'winston';
-import { MongoDB } from 'winston-mongodb';
+import 'winston-mongodb';
 import fs from 'fs';
 import path from 'path';
 import config from '../config';

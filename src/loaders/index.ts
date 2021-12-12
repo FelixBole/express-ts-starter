@@ -10,4 +10,6 @@ export default function loadResources(app: Application) {
 
     expressLoader(app);
     Logger.info('Express loaded !');
+
+    // Logger.error('Test for mongo');
 }
